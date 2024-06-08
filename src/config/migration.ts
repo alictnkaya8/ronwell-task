@@ -1,5 +1,5 @@
-import { User } from "../entities";
+import { User, Product } from "../entities";
 
-const migration = [User];
+const migration = [User, Product];
 
 export default migration;
